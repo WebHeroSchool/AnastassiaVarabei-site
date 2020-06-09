@@ -1,0 +1,58 @@
+* {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1366px;
+  min-width: 600px;
+  margin: 0 auto; 
+  background: url(foto/fon.jpg)
+}
+
+header {
+  display: inline-flex;  
+}
+
+.logo {
+  display: inline-block;
+  justify-content: flex-start;
+}
+.menu {
+  text-decoration-color: color: orange;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: space-around;
+  margin-top: 45px;
+  margin-left: 100px;
+}
+
+.menu li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 150px;
+  color: orange;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+  color: firebrick;
+}
+
+.context {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h3 {
+    color: darkmagenta;
+}
+
+.footer {
+  text-align: center;
+  color: brown;
+}
